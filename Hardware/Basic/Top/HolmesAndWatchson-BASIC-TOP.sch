@@ -5380,8 +5380,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf&lt;/il&gt;
 <part name="GND42" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
 <part name="GND43" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
-<part name="GND44" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="LinnesLab-Symbols" deviceset="VIN" device=""/>
 <part name="SW1" library="LinnesLab-Switches" deviceset="SWITCH.MOM" device=""/>
 <part name="GND1" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5817,13 +5815,6 @@ way dynamically.</text>
 <instance part="GND43" gate="G$1" x="162.56" y="246.38" smashed="yes">
 <attribute name="VALUE" x="162.56" y="246.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="175.26" y="281.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="173.7614" y="278.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.562" y="278.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND44" gate="G$1" x="175.26" y="271.78" smashed="yes">
-<attribute name="VALUE" x="175.26" y="271.526" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="SUPPLY17" gate="G$1" x="116.84" y="292.1" smashed="yes">
 <attribute name="VALUE" x="116.84" y="294.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -6156,11 +6147,6 @@ way dynamically.</text>
 <wire x1="162.56" y1="251.46" x2="162.56" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="GND44" gate="G$1" pin="GND"/>
-<wire x1="175.26" y1="274.32" x2="175.26" y2="276.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SW1" gate="G$1" pin="3"/>
 <wire x1="515.62" y1="327.66" x2="518.16" y2="327.66" width="0.1524" layer="91" style="longdash"/>
 <wire x1="518.16" y1="327.66" x2="518.16" y2="325.12" width="0.1524" layer="91" style="longdash"/>
@@ -6375,9 +6361,6 @@ way dynamically.</text>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="165.1" y1="292.1" x2="165.1" y2="289.56" width="0.1524" layer="91"/>
 <junction x="165.1" y="289.56"/>
-<wire x1="165.1" y1="289.56" x2="175.26" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="289.56" x2="175.26" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="A"/>
